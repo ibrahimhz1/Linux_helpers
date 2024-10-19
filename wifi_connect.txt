@@ -1,0 +1,3 @@
+nmcli c add type wifi con-name "network1" ifname wlan0 ssid "iaua5g"
+nmcli con modify network1 wifi-sec.key-mgmt wpa-psk
+nmcli con modify network1 wifi-sec.psk "jiokeliye2@"
